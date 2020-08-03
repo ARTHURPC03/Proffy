@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 import {
   PageLanding,
@@ -19,7 +20,7 @@ import purpleHeartIcon from '../../assets/images/icons/purple-heart.svg'
 const Landing: React.FC = () => {
   return (
     <PageLanding>
-      <PageLandingContent className="container">
+      <PageLandingContent>
         <LogoContainer>
           <img src={logoImg} alt="Proffy" />
           <h2>Sua plataforma de estudos online</h2>
@@ -28,14 +29,14 @@ const Landing: React.FC = () => {
         <HeroImage src={landingImg} alt="Plataforma de estudos" />
 
         <ButtonsContainer>
-          <a href="/ " className="study">
+          <Link to="/study" className="study">
             <img src={studyIcon} alt="Estudar" />
             Estudar
-          </a>
-          <a href="/" className="give-classes">
+          </Link>
+          <Link to="/give-classes" className="give-classes">
             <img src={giveClassesIcon} alt="Dar aulas" />
             Dar aulas
-          </a>
+          </Link>
         </ButtonsContainer>
 
         <TotalConnections>

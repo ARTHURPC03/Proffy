@@ -16,7 +16,7 @@ export default createGlobalStyle`
   }
 
   body {
-    background: ${props => props.theme.colors.background}
+    background: ${props => props.theme.colors.background};
   }
 
   #root {
@@ -30,12 +30,10 @@ export default createGlobalStyle`
   button,
   textarea {
     font: 500 1.6rem Poppins;
+    color:  ${props => props.theme.colors.textBase}
   }
 
-  .container {
-    width: 90vw;
-    max-width: 700px;
-  }
+
 
   @media (min-width: 700px) {
     :root {

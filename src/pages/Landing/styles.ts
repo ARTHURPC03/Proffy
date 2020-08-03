@@ -13,6 +13,9 @@ export const PageLanding = styled.div`
 `
 
 export const PageLandingContent = styled.div`
+  width: 90vw;
+  max-width: 700px;
+
   @media (min-width: 1100px) {
     max-width: 1100px;
 
@@ -134,7 +137,6 @@ export const TotalConnections = styled.span`
   @media (min-width: 1100px) {
     grid-area: total;
     justify-self: end;
-    margin-left: 1.6rem;
     a {
       img {
         margin-right: 2.4rem;
