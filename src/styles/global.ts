@@ -31,4 +31,15 @@ export default createGlobalStyle`
   textarea {
     font: 500 1.6rem Poppins;
   }
+
+  .container {
+    width: 90vw;
+    max-width: 700px;
+  }
+
+  @media (min-width: 700px) {
+    :root {
+      font-size: 62.5%;
+    }
+  }
 `

@@ -6,6 +6,8 @@ import ThemeSwitcher from './components/ThemeSwitcher'
 import light from './styles/themes/light'
 import dark from './styles/themes/dark'
 
+import Landing from './pages/Landing'
+
 import GlobalStyle from './styles/global'
 
 function App(): any {
@@ -17,7 +19,7 @@ function App(): any {
   return (
     <ThemeProvider theme={theme}>
       <ThemeSwitcher toggleTheme={toggleTheme} />
-      <h1>Hello World</h1>
+      <Landing />
       <GlobalStyle />
     </ThemeProvider>
   )
