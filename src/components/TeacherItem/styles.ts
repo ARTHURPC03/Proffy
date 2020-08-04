@@ -16,6 +16,11 @@ export const TeacherItemComponent = styled.article`
       width: 8rem;
       height: 8rem;
       border-radius: 50%;
+      transition: all 0.2s ease 0s, transform 0.2s ease 0s;
+
+      &:hover {
+        transform: translateY(-10px);
+      }
     }
 
     div {
@@ -51,7 +56,7 @@ export const TeacherItemComponent = styled.article`
     justify-content: space-between;
 
     p strong {
-      color: ${props => props.theme.colors.primary};
+      color: ${props => props.theme.colors.textBase};
       font-size: 1.6rem;
       display: block;
     }
@@ -69,8 +74,11 @@ export const TeacherItemComponent = styled.article`
       align-items: center;
       justify-content: space-evenly;
       transition: 0.2;
+      transition: all 0.2s ease 0s, transform 0.2s ease 0s;
 
       &:hover {
+        transform: translateY(-10px);
+        border-color: ${props => props.theme.colors.text};
         background: ${props => props.theme.colors.secondaryDark};
       }
     }

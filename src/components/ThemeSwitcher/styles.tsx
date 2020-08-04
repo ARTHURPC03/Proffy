@@ -2,6 +2,6 @@ import styled from 'styled-components'
 
 export const Container = styled.div`
   position: absolute;
-
-  margin: 7px;
+  align-self: flex-start;
+  margin-top: 3vh;
 `

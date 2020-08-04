@@ -96,6 +96,10 @@ export const ButtonsContainer = styled.div`
     &:first-child {
       margin-right: 1.6rem;
     }
+    transition: all 0.2s ease 0s, transform 0.2s ease 0s;
+    &:hover {
+      transform: translate3d(21px, -31px, -67.5px);
+    }
   }
 
   .study {
