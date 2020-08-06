@@ -32,7 +32,7 @@ export default {
     lineInWhite: '#191919',
     inputBackground: '#181818',
     buttonText: '#FFFFFF',
-    boxBase: '#181818',
+    boxBase: '#202020',
     boxFooter: '#191919',
   },
 }

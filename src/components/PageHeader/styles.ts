@@ -49,6 +49,14 @@ export const HeaderContent = styled.div`
     color: ${props => props.theme.colors.titleInPrimary};
   }
 
+  p {
+    max-width: 30rem;
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    color: ${props => props.theme.colors.textInPrimary}
+    margin-top: 2.4rem;
+  }
+
   @media (min-width: 700px) {
     flex: 1;
     max-width: 740px;

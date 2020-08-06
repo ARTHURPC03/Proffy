@@ -33,7 +33,10 @@ export default createGlobalStyle`
     color:  ${props => props.theme.colors.textBase}
   }
 
-
+  /* .container {
+    width: 90vw;
+    max-width: 700px;
+  } */
 
   @media (min-width: 700px) {
     :root {
