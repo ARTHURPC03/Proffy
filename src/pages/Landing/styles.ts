@@ -7,7 +7,7 @@ export const PageLanding = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-
+  transition: color, background 1s ease 0s, transform 1s ease 0s;
   color: ${props => props.theme.colors.textInPrimary};
   background: ${props => props.theme.colors.primary};
 `
