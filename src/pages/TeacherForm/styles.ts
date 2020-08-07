@@ -24,6 +24,10 @@ export const Container = styled.div`
       margin-top: 6.4rem;
     }
 
+    div + div {
+      margin-top: 2.4rem;
+    }
+
     fieldset legend {
       font: 700 2.4rem Archivo;
       color: ${props => props.theme.colors.textTitle};
@@ -34,6 +38,19 @@ export const Container = styled.div`
       width: 100%;
       padding-bottom: 1.6rem;
       border-bottom: 1px solid ${props => props.theme.colors.lineInWhite};
+    }
+
+    fieldset legend button {
+      background: none;
+      border: 0;
+      color: ${props => props.theme.colors.primary};
+      font: 700 1.6rem Archivo;
+      cursor: pointer;
+      transition: color 0.2s;
+
+      &:hover {
+        color: ${props => props.theme.colors.primaryDark};
+      }
     }
 
     label {
@@ -103,4 +120,16 @@ export const Container = styled.div`
 
 export const HeaderContent = styled.div`
   margin-bottom: 6.4rem;
+`
+
+export const ScheduleItem = styled.div`
+  @media (min-width: 700px) {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    column-gap: 1.6rem;
+
+    div {
+      margin-top: 0 !important;
+    }
+  }
 `

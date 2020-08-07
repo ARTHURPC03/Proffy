@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const Container = styled.div``
 
-export const InputBlock = styled.div`
+export const SelectBlock = styled.div`
   label {
     color: ${props => props.theme.colors.textInPrimary};
   }
@@ -13,7 +13,7 @@ export const InputBlock = styled.div`
     font-size: 1.4rem;
   }
 
-  input {
+  select {
     width: 100%;
     height: 5.6rem;
     margin-top: 0.8rem;

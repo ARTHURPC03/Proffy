@@ -61,7 +61,7 @@ export const TeacherItemComponent = styled.article`
       display: block;
     }
 
-    button {
+    a {
       width: 20rem;
       height: 5.6rem;
       background: ${props => props.theme.colors.secondary};
@@ -75,6 +75,7 @@ export const TeacherItemComponent = styled.article`
       justify-content: space-evenly;
       transition: 0.2;
       transition: all 0.2s ease 0s, transform 0.2s ease 0s;
+      text-decoration: none;
 
       &:hover {
         transform: translateY(-10px);
