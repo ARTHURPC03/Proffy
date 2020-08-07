@@ -43,13 +43,13 @@ export const Container = styled.div`
     fieldset legend button {
       background: none;
       border: 0;
-      color: ${props => props.theme.colors.primary};
+      color: ${props => props.theme.colors.primaryDark};
       font: 700 1.6rem Archivo;
       cursor: pointer;
       transition: color 0.2s;
 
       &:hover {
-        color: ${props => props.theme.colors.primaryDark};
+        color: ${props => props.theme.colors.primaryDarker};
       }
     }
 

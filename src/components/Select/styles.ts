@@ -14,6 +14,7 @@ export const SelectBlock = styled.div`
   }
 
   select {
+    color: ${props => props.theme.colors.textTitle};
     width: 100%;
     height: 5.6rem;
     margin-top: 0.8rem;
